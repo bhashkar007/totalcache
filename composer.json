@@ -1,0 +1,14 @@
+{
+	"name": "bhashkar007/totalcache",
+	"description": "A plugin to clear, warm and bust Cache.",
+	"type": "craft-plugin",
+	"authors": [
+		{
+			"name": "Bhashkar Yadav",
+			"homepage": "http://sidd3.com"
+		}
+	],
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
