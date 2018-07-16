@@ -153,7 +153,8 @@ class TotalCachePlugin extends BasePlugin
                     LogLevel::Info,
                     true
                 );
-                craft()->totalCache->clearAll();
+                craft()->templateCache->deleteAllCaches();
+                craft()->totalCache->clearFastCgi();
                 craft()->totalCache->warmCache();
 
             }
