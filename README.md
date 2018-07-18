@@ -57,7 +57,4 @@ Simply create a GET or a POST request to the action URL.
 **To Clear and then Warm Cache**
 {{ siteUrl }}actions/totalCache/clearAndWarm?key={{ key }}
 
-
-* Release it
-
 Brought to you by [Bhashkar Yadav](http://sidd3.com)
